@@ -1,0 +1,75 @@
+
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-orange: #FF6B00;
+
+  --vt-c-gray: #7B7B7B;
+  --vt-c-gray-soft: #B9B9B9;
+  --vt-c-gray-mute: #555555;
+  --vt-c-gray-title: #DFDFDF;
+  --vt-c-gray-back: #E8E8E8;
+  --vt-c-gray-roll:#d4d3d3;
+
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --background-principal: #F2F3F4;
+  --text-grey: #42464D;
+  --text-grey-mid: #565C69;
+  --text-grey-weak: #7F858D;
+  --filter-text: #3F3B3B;
+  --orange-strong: #E35214;
+  --orange-text: #FC6B0F;
+  --orange-weak: #FF6500;
+  --white: #FFFFFF;
+  --white-weak: #F5F5F5;
+  --blue: #0060b1;
+  --green: #2DC26E;
+  --green-text: #1F9050;
+  --red: #E72626;
+  --grey-trash-icon: #B6BBC2;
+  --grey-line: #DEE0E4;
+}
+*,body {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--vt-c-gray-back);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--vt-c-orange) var(--vt-c-gray-roll);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--vt-c-gray-roll);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--vt-c-orange);
+  border-radius: 20px;
+}
