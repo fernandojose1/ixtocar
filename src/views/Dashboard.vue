@@ -49,7 +49,7 @@ import Notification from "../components/Notification.vue";
 .gallery {
   margin-top: 30px;
   height: 320px;
-  width:100vw;
+  width:100%;
   overflow: hidden;
   overflow-x: scroll;
 }
@@ -58,6 +58,7 @@ import Notification from "../components/Notification.vue";
   flex-direction: row;
   gap: 15px;
   width:2000px;
+  margin: 10px;
 }
 
 
@@ -68,10 +69,10 @@ import Notification from "../components/Notification.vue";
   display: block;
   float: left;
   border: 1px solid #ddd;
-  margin: 1px;
 }
 .down {
-  width: 100%;
+  width:100%;
+  padding: 10px;
   height: 430px;
   max-height: 450px;
   overflow: scroll;

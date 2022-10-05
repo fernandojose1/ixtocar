@@ -55,7 +55,7 @@ body {
 
 /* Works on Firefox */
 * {
-  scrollbar-width: thin;
+  scrollbar-width: 10px;
   scrollbar-color: var(--vt-c-orange) var(--vt-c-gray-roll);
 }
 
