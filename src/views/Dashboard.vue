@@ -53,7 +53,6 @@ import Notification from "../components/Notification.vue";
   overflow: hidden;
   overflow-x: scroll;
 }
-
 .thumbnails {
   display: flex;
   flex-direction: row;
