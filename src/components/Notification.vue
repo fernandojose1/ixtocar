@@ -13,7 +13,7 @@
       <h4><b>Garagem 2 Irmãos</b></h4>
       </div>
     <div class="car_title">
-      <p><ChatBubbleLeftIcon class="icon_login" />Estamos interessados no Camaro v8 2010asdasdasdasdasdasdasdsdasda...</p>
+      <p><ChatBubbleLeftIcon class="icon_login" />Estamos interessados no Camaro v8 asdasdasdasdasdasdasdsdasda...</p>
     </div>
     <div class="car_date">
       <p>20-08-2022</p>
