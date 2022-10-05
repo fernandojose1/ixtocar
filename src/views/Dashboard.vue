@@ -61,6 +61,8 @@ import Notification from "../components/Notification.vue";
   width:2000px;
 }
 
+
+
 .thumbnails img {
   width: auto;
   height: 100px;
