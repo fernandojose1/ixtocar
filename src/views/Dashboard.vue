@@ -8,12 +8,6 @@
     <div class="gallery">
       <div class="thumbnails">
         <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
       </div>
     </div>
     <h1 class="title_second">Notificações</h1><br/>
