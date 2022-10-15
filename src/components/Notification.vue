@@ -32,9 +32,9 @@
   justify-content: space-around;
   overflow: hidden;
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-color: var(--vt-c-white);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .box_image {
   display: flex;

@@ -1,31 +1,20 @@
 <script setup>
-import { onMounted, ref } from "vue";
-import api from "@/service/api";
-
-const pokemons = ref([]);
-
-const fetchPokemons = () =>
-  api
-    .get("/pokemon/8")
-    .then((response) => (pokemons.value = response.data.sprites.front_default));
-
-onMounted(fetchPokemons);
-console.log(pokemons);
+//
 </script>
 
 <template>
-  <div v-for="(pokemon, i) in pokemons" :key="i">
+  <div>
     <div class="card">
       <div class="box_image">
-        <img v-bind:src="pokemons"  alt="Avatar" />
+        <img src="@/assets/mclaren-720s.jpg" alt="Avatar" />
       </div>
       <div class="garage_title">
         <h4>
-          <b>{{ pokemon.name }}</b>
+          <b>Nome do carro</b>
         </h4>
       </div>
       <div class="car_title">
-        <p>{{ pokemon.url }}</p>
+        <p>Descrição</p>
       </div>
     </div>
   </div>

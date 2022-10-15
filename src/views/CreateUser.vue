@@ -11,7 +11,7 @@ import {
   <div class="container">
     <div class="left_container">
       <div class="car_image">
-        <img alt="car" src="@/assets/mclaren-720s.jpg" />
+        <img alt="car" src="@/assets/carKey.jpg" />
       </div>
     </div>
     <div class="right_container">

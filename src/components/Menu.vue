@@ -18,28 +18,28 @@ import {
     <h1 class="name_company">Garagem 2 irmãos</h1>
     <hr />
     <nav class="menu-items">
-      <router-link :to="{ name: dashboard }" active-class="active">
+      <router-link to="/dashboard" active-class="active">
         <div class="hoverLink"></div>
         <div class="link-container">
           <ComputerDesktopIcon class="icon_login" />
           Dashboard
         </div>
       </router-link>
-      <router-link :to="{ name: garages }" active-class="active">
+      <router-link to="/garagens" active-class="active">
         <div class="hoverLink"></div>
         <div class="link-container">
           <BuildingStorefrontIcon class="icon_login" />
           Garagens
         </div>
       </router-link>
-      <router-link :to="{ name: cars }" active-class="active">
+      <router-link to="/veiculos" active-class="active">
         <div class="hoverLink"></div>
         <div class="link-container">
           <TruckIcon class="icon_login" />
           Veículos
         </div>
       </router-link>
-      <router-link :to="{ name: proposals }" active-class="active">
+      <router-link to="/propostas" active-class="active">
         <div class="hoverLink"></div>
         <div class="link-container">
           <ChatBubbleLeftIcon class="icon_login" />
@@ -53,21 +53,21 @@ import {
           Meu estoque
         </summary>
         <div class="subLinks">
-          <router-link :to="{ name: storecar }" active-class="active">
+          <router-link to="/meu-estoque/cadastrar" active-class="active">
             <div class="hoverLink"></div>
             <PlusCircleIcon class="icon_login" />
             Cadastrar
           </router-link>
         </div>
         <div class="subLinks">
-          <router-link :to="{ name: consultcar }" active-class="active">
+          <router-link to="/meu-estoque" active-class="active">
             <div class="hoverLink"></div>
             <MagnifyingGlassCircleIcon class="icon_login" />
             Consultar
           </router-link>
         </div>
       </details>
-      <router-link :to="{ name: myaccount }" active-class="active">
+      <router-link to="/minha-conta" active-class="active">
         <div class="hoverLink"></div>
         <div class="link-container">
           <UserIcon class="icon_login" />
@@ -76,7 +76,6 @@ import {
       </router-link>
 
       <div class="footerNav">
-        <hr />
         <router-link :to="{ name: exit }">
           <div class="link-container">
             <ArrowLeftOnRectangleIcon class="icon_login" />
@@ -94,7 +93,7 @@ summary {
 }
 .sidebar {
   min-width: 270px;
-  margin-left: 50px;
+  padding-left: 50px;
   font-size: 20px;
 }
 .sidebar a {

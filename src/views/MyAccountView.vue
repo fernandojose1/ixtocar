@@ -1,34 +1,20 @@
 <template>
   <section class="container">
     <div class="up">
-      <h1 class="title">Dashboard</h1>
+      <h1 class="title">Minha conta</h1>
       <h1 class="title">Ixtocar</h1>
     </div>
     <hr />
     <div class="gallery">
       <div class="thumbnails">
         <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
       </div>
-    </div>
-    <h1 class="title_second">Notificações</h1>
-    <div class="down">
-      <Notification />
-      <Notification />
-      <Notification />
-      <Notification />
-      <Notification />
     </div>
   </section>
 </template>
 
 <script setup>
 import Card1 from "../components/Card1.vue";
-import Notification from "../components/Notification.vue";
 </script>
 
 <style scoped>
@@ -47,6 +33,7 @@ import Notification from "../components/Notification.vue";
 }
 .gallery {
   margin-top: 30px;
+  height: 320px;
   width:100%;
   overflow: hidden;
   overflow-x: scroll;
@@ -71,9 +58,9 @@ import Notification from "../components/Notification.vue";
 .down {
   width:100%;
   padding: 10px;
-  height: 400px;
+  height: 430px;
   max-height: 450px;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 .title {
   color: var(--vt-c-gray-mute);
@@ -86,7 +73,6 @@ import Notification from "../components/Notification.vue";
   font-weight: 600;
   font-size: 24px;
   padding-top: 20px;
-  margin-bottom: 10px;
 }
 
 hr {

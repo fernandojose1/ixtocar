@@ -1,4 +1,3 @@
-
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -73,3 +72,4 @@ body {
   background-color: var(--vt-c-orange);
   border-radius: 20px;
 }
+
